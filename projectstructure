@@ -1,0 +1,28 @@
+spotify-clone/
+├── client/                  # Frontend
+│   ├── public/
+│   └── src/
+│       ├── components/
+│       │   ├── Navbar.jsx
+│       │   ├── Home.jsx
+│       │   ├── Search.jsx
+│       │   ├── Player.jsx
+│       │   ├── Playlist.jsx
+│       ├── App.js
+│       ├── index.js
+│       └── styles/
+│           ├── Navbar.css
+│           ├── Home.css
+│           ├── Player.css
+│           └── Playlist.css
+├── server/                  # Backend
+│   ├── models/
+│   │   └── Song.js          # Mongoose schema for songs
+│   ├── routes/
+│   │   ├── auth.js          # User authentication routes
+│   │   └── songs.js         # Routes for music data
+│   ├── config/
+│   │   └── db.js            # MongoDB connection
+│   ├── app.js               # Express server
+│   ├── package.json
+└── README.md
